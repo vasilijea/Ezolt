@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+.pre-header {
+    background-color:#111618;
+    height: 60px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.pre-header .main-menu {
+    list-style: none;
+}
+
+.pre-header .main-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .main-menu li a {
+    color: #787374;
+    text-transform: uppercase;
+}
+
+.main-nav .secoundary-menu {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav .secoundary-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .secoundary-menu li a {
+    color: #767676;   
+    text-transform: uppercase;   
+}   
+    
+
+.main-nav img {
+    margin-top: 10px;
+    margin-left: -32px;
+}
+
+.hero-section {
+    background-image: url(../images/hero.jpg);
+    padding-top:  115px; ;
+    padding-bottom: 115px;
+    background-size: cover;
+}
+.hero-section h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold ;
+    margin-bottom: 20px;
+}
+
+.hero-section a {
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 18px;
+    color: #fff;
+    transition: 4s; /* by Vojin */
+    display: inline-block;
+}
+
+.service-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service-section h3 {
+    text-align: center;
+    color: #4c007b;
+}
+
+.service-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+
+.service-section p {
+    text-align: center;
+    color: #818181;
+}
